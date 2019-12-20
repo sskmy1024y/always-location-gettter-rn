@@ -28,6 +28,7 @@
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-native": "^3.8.1",
     "prettier": "^1.19.1",
+    "react-native-background-geolocation": "^3.4.2",
     "typescript": "^3.7.3"
   },
   "private": true
