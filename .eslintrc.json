@@ -1,0 +1,46 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "react-native/react-native": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:prettier/recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "prettier/react",
+        "prettier/@typescript-eslint"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module",
+        "project": "tsconfig.json",
+        "tsconfigRootDir": "."
+    },
+    "plugins": [
+        "react",
+        "react-native",
+        "prettier",
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "prettier/prettier": "error",
+        "react-native/sort-styles": [
+            "warn",
+            "asc"
+        ],
+        "react/jsx-boolean-value": [
+            "error",
+            "never"
+        ]
+    }
+}
