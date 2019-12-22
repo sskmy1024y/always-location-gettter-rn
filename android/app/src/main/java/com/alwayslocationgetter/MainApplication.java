@@ -3,7 +3,6 @@ package com.alwayslocationgetter;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
-import com.transistorsoft.rnbackgroundfetch.RNBackgroundFetchPackage;
 import com.transistorsoft.rnbackgroundgeolocation.RNBackgroundGeolocation;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
@@ -39,7 +38,6 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new RNBackgroundFetchPackage(),
             new RNBackgroundGeolocation(),
           new ReanimatedPackage(),
           new RNGestureHandlerPackage(),
