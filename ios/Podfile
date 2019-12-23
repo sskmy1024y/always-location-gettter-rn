@@ -35,14 +35,12 @@ target 'AlwaysLocationGetter' do
   pod 'DoubleConversion', :podspec => "#{rnPrefix}/third-party-podspecs/DoubleConversion.podspec"
   pod 'glog', :podspec => "#{rnPrefix}/third-party-podspecs/glog.podspec"
   pod 'Folly', :podspec => "#{rnPrefix}/third-party-podspecs/Folly.podspec"
-
+  
   # Other native modules
 
   # Automatically detect installed unimodules
   use_unimodules!
   pod 'RNBackgroundGeolocation', :path => '../node_modules/react-native-background-geolocation'
-
-
   pod 'RNBackgroundFetch', :path => '../node_modules/react-native-background-fetch'
 
 end

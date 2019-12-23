@@ -12,8 +12,23 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		3DE4DAD41476765101945408 /* libPods-AlwaysLocationGetter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D43FF9D506E70904424FA7E9 /* libPods-AlwaysLocationGetter.a */; };
+		52EE8C348E7D4F0C90FD5A53 /* libLineLoginManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C914C8671A845388079F0D3 /* libLineLoginManager.a */; };
 		CA79ED6723ADE3A4008D9E12 /* RNBackgroundFetch+AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA79ED6623ADE3A4008D9E12 /* RNBackgroundFetch+AppDelegate.m */; };
+		CADC0EC323B11EED0086465A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADC0EC123B11EED0086465A /* Security.framework */; };
+		CADC0EC523B11EFD0086465A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADC0EC423B11EFD0086465A /* CoreTelephony.framework */; };
+		CADC0EC723B11F0D0086465A /* LineSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADC0EC623B11F0D0086465A /* LineSDK.framework */; };
+		CADC0EC923B11F320086465A /* LineSDKResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CADC0EC823B11F320086465A /* LineSDKResource.bundle */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CADC0EB723B110C40086465A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F63327FC9544DC8801FD9A5 /* LineLoginManager.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = LineLoginManager;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		CA79ED6E23ADE48B008D9E12 /* Embed Frameworks */ = {
@@ -37,10 +52,17 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AlwaysLocationGetter/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AlwaysLocationGetter/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AlwaysLocationGetter/main.m; sourceTree = "<group>"; };
+		1F63327FC9544DC8801FD9A5 /* LineLoginManager.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = LineLoginManager.xcodeproj; path = "../node_modules/react-native-line-sdk/ios/LineLoginManager.xcodeproj"; sourceTree = "<group>"; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B47C5AFCB8BDE514B7D1AC6 /* Pods-AlwaysLocationGetter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlwaysLocationGetter.debug.xcconfig"; path = "Target Support Files/Pods-AlwaysLocationGetter/Pods-AlwaysLocationGetter.debug.xcconfig"; sourceTree = "<group>"; };
+		5C914C8671A845388079F0D3 /* libLineLoginManager.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libLineLoginManager.a; sourceTree = "<group>"; };
 		8AC623DBF3A3E2CB072F81F2 /* Pods-AlwaysLocationGetter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlwaysLocationGetter.release.xcconfig"; path = "Target Support Files/Pods-AlwaysLocationGetter/Pods-AlwaysLocationGetter.release.xcconfig"; sourceTree = "<group>"; };
 		CA79ED6623ADE3A4008D9E12 /* RNBackgroundFetch+AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RNBackgroundFetch+AppDelegate.m"; path = "../node_modules/react-native-background-fetch/ios/RNBackgroundFetch/RNBackgroundFetch+AppDelegate.m"; sourceTree = "<group>"; };
+		CADC0EB923B110FB0086465A /* AlwaysLocationGetter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = AlwaysLocationGetter.entitlements; path = AlwaysLocationGetter/AlwaysLocationGetter.entitlements; sourceTree = "<group>"; };
+		CADC0EC123B11EED0086465A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CADC0EC423B11EFD0086465A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		CADC0EC623B11F0D0086465A /* LineSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LineSDK.framework; path = Frameworks/LineSDK.framework; sourceTree = "<group>"; };
+		CADC0EC823B11F320086465A /* LineSDKResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = LineSDKResource.bundle; path = Frameworks/LineSDKResource.bundle; sourceTree = "<group>"; };
 		D43FF9D506E70904424FA7E9 /* libPods-AlwaysLocationGetter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlwaysLocationGetter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -51,7 +73,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CADC0EC723B11F0D0086465A /* LineSDK.framework in Frameworks */,
+				CADC0EC523B11EFD0086465A /* CoreTelephony.framework in Frameworks */,
+				CADC0EC323B11EED0086465A /* Security.framework in Frameworks */,
 				3DE4DAD41476765101945408 /* libPods-AlwaysLocationGetter.a in Frameworks */,
+				52EE8C348E7D4F0C90FD5A53 /* libLineLoginManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +87,7 @@
 		13B07FAE1A68108700A75B9A /* AlwaysLocationGetter */ = {
 			isa = PBXGroup;
 			children = (
+				CADC0EB923B110FB0086465A /* AlwaysLocationGetter.entitlements */,
 				CA79ED6623ADE3A4008D9E12 /* RNBackgroundFetch+AppDelegate.m */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -76,6 +103,9 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CADC0EC623B11F0D0086465A /* LineSDK.framework */,
+				CADC0EC423B11EFD0086465A /* CoreTelephony.framework */,
+				CADC0EC123B11EED0086465A /* Security.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
@@ -96,6 +126,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				1F63327FC9544DC8801FD9A5 /* LineLoginManager.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -103,11 +134,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				CADC0EC823B11F320086465A /* LineSDKResource.bundle */,
 				13B07FAE1A68108700A75B9A /* AlwaysLocationGetter */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				72E5486571395D51695C2A02 /* Pods */,
+				CADC0EB323B110C40086465A /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -118,6 +151,22 @@
 			isa = PBXGroup;
 			children = (
 				13B07F961A680F5B00A75B9A /* AlwaysLocationGetter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CADC0EB323B110C40086465A /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				5C914C8671A845388079F0D3 /* libLineLoginManager.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		CADC0EB423B110C40086465A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CADC0EB823B110C40086465A /* libLineLoginManager.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,7 +201,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
@@ -172,6 +221,12 @@
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CADC0EB423B110C40086465A /* Products */;
+					ProjectRef = 1F63327FC9544DC8801FD9A5 /* LineLoginManager.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* AlwaysLocationGetter */,
@@ -179,11 +234,22 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		CADC0EB823B110C40086465A /* libLineLoginManager.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLineLoginManager.a;
+			remoteRef = CADC0EB723B110C40086465A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		13B07F8E1A680F5B00A75B9A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CADC0EC923B11F320086465A /* LineSDKResource.bundle in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
@@ -280,17 +346,30 @@
 			baseConfigurationReference = 3B47C5AFCB8BDE514B7D1AC6 /* Pods-AlwaysLocationGetter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AlwaysLocationGetter/AlwaysLocationGetter.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = LVLHV7P6KP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-line-sdk/ios/**",
+				);
 				INFOPLIST_FILE = AlwaysLocationGetter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AlwaysLocationGetter\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sskmy1024y.AlwaysLocationGetter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sskmy1024y.getalwayslocation;
 				PRODUCT_NAME = AlwaysLocationGetter;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -301,16 +380,29 @@
 			baseConfigurationReference = 8AC623DBF3A3E2CB072F81F2 /* Pods-AlwaysLocationGetter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AlwaysLocationGetter/AlwaysLocationGetter.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LVLHV7P6KP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-line-sdk/ios/**",
+				);
 				INFOPLIST_FILE = AlwaysLocationGetter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AlwaysLocationGetter\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sskmy1024y.AlwaysLocationGetter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sskmy1024y.getalwayslocation;
 				PRODUCT_NAME = AlwaysLocationGetter;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
