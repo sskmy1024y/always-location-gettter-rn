@@ -61,7 +61,7 @@ function Login() {
   )
 }
 
-const Container = styled.View`
+const Container = styled.SafeAreaView`
   display: flex;
   justify-content: center;
   align-items: center;

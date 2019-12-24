@@ -6,11 +6,9 @@ import LoginContainer from './src/containers/LoginContainer'
 
 export default function App() {
   return (
-    <SafeAreaView>
-      <Providers>
-        <Main />
-      </Providers>
-    </SafeAreaView>
+    <Providers>
+      <Main />
+    </Providers>
   )
 }
 
