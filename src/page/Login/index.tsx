@@ -1,16 +1,16 @@
 import React from 'react'
 
 import LineLogin from 'react-native-line-sdk'
-import { View, Button } from 'react-native'
+import { View, Button, Alert } from 'react-native'
 
 function Login() {
   const onPress = () => {
-    LineLogin.login()
+    LineLogin.loginWithPermissions(['profile'])
       .then(user => {
-        console.log(user.profile.displayName)
+        Alert.alert('login success', user.profile.displayName)
       })
       .catch(err => {
-        console.log(err)
+        Alert.alert('login error', err.toString())
       })
   }
 
