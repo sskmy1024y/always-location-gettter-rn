@@ -1,15 +1,21 @@
-import React from 'react'
-import { SafeAreaView } from 'react-native'
-import { Provider } from './src/containers/LocationContainer'
+import React, { useState, useEffect } from 'react'
+import { SafeAreaView, AsyncStorage } from 'react-native'
+import LocationContainer from './src/containers/LocationContainer'
 import Main from './src/page/Main'
-import Login from './src/page/Login'
+import LoginContainer from './src/containers/LoginContainer'
 
 export default function App() {
   return (
     <SafeAreaView>
-      <Provider>
-        <Login />
-      </Provider>
+      <Providers>
+        <Main />
+      </Providers>
     </SafeAreaView>
   )
 }
+
+const Providers = ({ children }: { children?: React.ReactElement }) => (
+  <LoginContainer.Provider>
+    <LocationContainer.Provider>{children}</LocationContainer.Provider>
+  </LoginContainer.Provider>
+)

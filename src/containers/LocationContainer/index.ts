@@ -11,4 +11,4 @@ function useLocationLog(initialState: Location[] = []) {
   return { log, addLog }
 }
 
-export const { Provider, useContainer } = createContainer(useLocationLog)
+export default createContainer(useLocationLog)
