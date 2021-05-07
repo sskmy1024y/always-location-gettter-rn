@@ -5982,11 +5982,6 @@ react-native-keyboard-aware-scroll-view@0.9.1:
     prop-types "^15.6.2"
     react-native-iphone-x-helper "^1.0.3"
 
-react-native-line-sdk@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/react-native-line-sdk/-/react-native-line-sdk-1.3.0.tgz#ec83483a21e0378e1f8f051e94036d128ac0cee4"
-  integrity sha512-SIzGp6lSAhK6UZix0zhvcNainS/84aN/Cte81jY6XIGgNw4V87Sg1uunYaYQemEpYc/yHhYYYKUP9gcyiM+5ow==
-
 "react-native-line-sdk@https://github.com/todtod80/react-native-line":
   version "1.3.0"
   resolved "https://github.com/todtod80/react-native-line#b5f61fab9120496d7bf6564ccf412c272c6de694"
@@ -7170,9 +7165,9 @@ typescript@^3.7.3:
   integrity sha512-Mcr/Qk7hXqFBXMN7p7Lusj1ktCBydylfQM/FZCk5glCNQJrCUKPkMHdo9R0MTFWsC/4kPFvDS0fDPvukfCkFsw==
 
 ua-parser-js@^0.7.18, ua-parser-js@^0.7.19:
-  version "0.7.21"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.21.tgz#853cf9ce93f642f67174273cc34565ae6f308777"
-  integrity sha512-+O8/qh/Qj8CgC6eYBVBykMrNtp5Gebn4dlGD/kKXVkJNDwyrAwSIqwz8CDf+tsAIWVycKcku6gIXJ0qwx/ZXaQ==
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
+  integrity sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==
 
 uglify-es@^3.1.9:
   version "3.3.9"
