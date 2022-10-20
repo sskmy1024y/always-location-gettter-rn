@@ -15,7 +15,7 @@
     "react-native-background-geolocation": "^3.4.2",
     "react-native-gesture-handler": "~1.5.0",
     "react-native-line-sdk": "https://github.com/todtod80/react-native-line",
-    "react-native-reanimated": "~1.4.0",
+    "react-native-reanimated": "~2.10.0",
     "react-native-screens": "2.0.0-alpha.12",
     "react-native-unimodules": "~0.7.0",
     "react-native-web": "~0.11.7"
